@@ -67,7 +67,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <div class="card p-3" style="border-radius: 1px solid #7FFF00">
+                <div class="card p-3" style="border: 1px solid #7FFF00">
                     <div class="d-flex justify-content-between">
                         <p class="fw-bold text-black">Bantuan Sosial</p>
                         <i class="ti ti-shopping-cart fs-6" style="color: #7FFF00"></i>
@@ -110,7 +110,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="card p-3">
+                <div class="card p-3" style="border: 1px solid #7FFF00">
                     <div class="d-flex justify-content-between">
                         <i class="ti ti-arrow-left fs-6" style="color: #7FFF00"></i>
                         <p> Upcomming E-vents (3)</p>
@@ -119,13 +119,13 @@
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="{{ asset('image/coding.jpg') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('image/coding.jpg') }}" class="d-block" width="550" height="390" alt="...">
                         </div>
                         <div class="carousel-item">
-                        <img src="{{ asset('image/coding-1.jpg') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('image/coding-1.jpg') }}" class="d-block" width="550" height="390" alt="...">
                         </div>
                         <div class="carousel-item">
-                        <img src="{{ asset('image/coding-2.jpg') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('image/coding-2.jpg') }}" class="d-block" width="550" height="390" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

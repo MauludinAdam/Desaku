@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="{{ asset('assets') }}/assets/css/styles.min.css" />
   {{-- link font awesome cdn --}}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  {{-- Datatable css --}}
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.3.8/css/dataTables.dataTables.min.css">
 </head>
 
 <body style="background-color: 	#cae8e8">
@@ -33,7 +35,7 @@
 
       <div class="container-fluid">
         {{-- content starts --}}
-        <h5 class="py-3" style="font-weight: 700">{{ $subtitle }}</h5>
+        <h5 class="py-3" style="font-weight: 700">{{ $title }}</h5>
         <div class="content">
             @yield('content')    
         </div>
@@ -49,6 +51,11 @@
   <script src="{{ asset('assets') }}/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
   <script src="{{ asset('assets') }}/assets/libs/simplebar/dist/simplebar.js"></script>
   <script src="{{ asset('assets') }}/assets/js/dashboard.js"></script>
+  {{-- Datatable.js --}}
+  <script src="//cdn.datatables.net/2.3.8/js/dataTables.min.js"></script>
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
 </body>
 
 </html>

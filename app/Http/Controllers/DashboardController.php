@@ -11,6 +11,7 @@ class DashboardController extends Controller
         $data = [
             'title' => 'Dashboard',
             'subtitle' => 'Desa Statistics',
+            'menu'     => 'dashboard',
         ];
         return view('dashboard', $data);
     }

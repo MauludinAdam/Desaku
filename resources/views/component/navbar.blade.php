@@ -14,7 +14,7 @@
           </ul>
           <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-              <a href="#" target="_blank" class="btn btn-danger"><i class="ti ti-power"></i> Logout</a>
+              <a href="#" target="_blank"><b>Kepala Desa</b></a>
               <li class="nav-item dropdown">
                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                   aria-expanded="false">
@@ -34,7 +34,7 @@
                       <i class="ti ti-list-check fs-6"></i>
                       <p class="mb-0 fs-3">My Task</p>
                     </a>
-                    <a href="./authentication-login.html" class="btn btn-outline-primary mx-3 mt-2 d-block">Logout</a>
+                    <a href="{{ route('logout') }}" class="btn btn-outline-danger mx-3 mt-2 d-block" onclick="return confirm('Yakin, ingin keluar dari halaman ini ?')"><i class="fas fa-sign-out"></i> Logout</a>
                   </div>
                 </div>
               </li>
